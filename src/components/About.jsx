@@ -11,10 +11,6 @@ const About = () => {
 
         {/* Heading */}
         <h2 className="text-3xl font-semi-bold leading-tight text-slate-900 sm:text-4xl md:text-4xl">
-          {/* Connecting Supply With
-          <span className="text-blue-700">
-            {" "}Untapped Market Demand.
-          </span> */}
           About Us
         </h2>
 
