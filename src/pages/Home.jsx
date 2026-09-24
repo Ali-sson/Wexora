@@ -13,6 +13,11 @@ import Footer from '../components/Footer'
 function Home() {
   return (
     <>
+
+      <div className="bg-red-500 p-10 text-center text-4xl font-bold text-white">
+        TAILWIND TEST
+      </div>
+      
     <Navbar />
     <Hero />
     <About />
