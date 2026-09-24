@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+ /** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./index.html",
@@ -12,13 +12,15 @@ export default {
       },
 
       colors: {
-        "wexora-blue": "#124B87",
-        primary: "#1F63A5",
-        light: "#EAF3FA",
-        orange: "#F5A400",
-        navy: "#0B2D4D",
-        gray: "#475569",
-        soft: "#F5F7FA",
+        wexora: {
+          blue: "#124B87",
+          primary: "#1F63A5",
+          orange: "#F5A400",
+          navy: "#0B2D4D",
+          light: "#EAF3FA",
+          gray: "#475569",
+          soft: "#F5F7FA",
+        },
       },
     },
   },
