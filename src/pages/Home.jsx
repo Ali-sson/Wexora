@@ -5,10 +5,10 @@ import WhatWeDo from '../components/Whatwedo'
 import MarketGap from '../components/MarketGap'
 import About from '../components/About'
 import GrowthRoadmap from '../components/GrowthRoadMap'
-import Services from '../components/services'
 import WhoWeWorkWith from '../components/WhoWeWorkWith'
 import DistributorCTA from '../components/DistributorsCta'
 import Footer from '../components/Footer'
+import Services from '../components/services'
 
 function Home() {
   return (
@@ -17,7 +17,7 @@ function Home() {
     <Hero />
     <About />
     <GrowthRoadmap />
-    <Services />
+    <Services/>
     <WhoWeWorkWith />
     <DistributorCTA/>
     <Footer/>
