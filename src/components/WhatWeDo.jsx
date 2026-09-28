@@ -33,16 +33,16 @@ const Services = () => {
   ];
 
   return (
-    <section className="bg-white py-24 lg:py-32">
+    <section id="what-we-do" className="bg-white py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
 
         {/* Header */}
-        <div className="max-w-3xl text-center mx-auto">
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-wexora-primary border-b-4 border-wexora-navy pb-1 inline-block">
+        <div  className="max-w-3xl text-center mx-auto">
+          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-wexora-navy border-b-4 border-yellow-400 pb-1 inline-block">
             What We Do
           </p>
 
-           <h2 className="text-3xl font-semi-bold leading-tight text-slate-900 sm:text-4xl md:text-4xl">
+           <h2 className="text-3xl font-semibold leading-tight text-slate-900 md:text-4xl">
           Creating Demand. Connecting Markets. Supporting Growth.
         </h2>
 

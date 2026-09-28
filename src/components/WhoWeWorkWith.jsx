@@ -5,7 +5,7 @@ const WhoWeWorkWith = () => {
 
         {/* Section Header */}
         <div className="mx-auto max-w-2xl text-center">
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em]  text-wexora-primary border-b-4 border-wexora-navy  pb-1 inline-block">
+          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em]  text-wexora-navy border-b-4 border-yellow-400  pb-1 inline-block">
             Who We Work With
           </p>
 

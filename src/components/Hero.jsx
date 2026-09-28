@@ -21,7 +21,7 @@ const Hero = () => {
         {/* Left Content */}
         <div className="max-w-2xl">
 
-          <span className="mb-6 inline-flex rounded-full border border-blue-300/20 bg-wexora-primary px-4 py-2 text-sm font-medium tracking-wide text-black">
+          <span className="mb-6 inline-flex rounded-full border border-blue-300/20 bg-wexora-primary px-4 py-2 text-sm font-medium tracking-wide text-white">
             MARKET DEVELOPMENT PARTNER
           </span>
 
@@ -33,7 +33,7 @@ const Hero = () => {
           </h1>
 
           <p className="mt-7 max-w-xl text-lg leading-8 text-slate-300">
-           Wexora bridges manufacturers and distributors by understanding market needs, sourcing reliable products, and creating stronger supply opportunities across Kano and Northern Nigeria.
+          Wexora bridges manufacturers and distributors by understanding market needs, sourcing reliable products, and creating stronger supply opportunities across Nigeria and beyond.
           </p>
 
           {/* Buttons */}

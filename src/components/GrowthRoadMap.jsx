@@ -26,11 +26,11 @@ const GrowthRoadmap = () => {
 
         {/* Section Header */}
         <div className="mx-auto max-w-2xl text-center">
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-wexora-primary border-b-4 border-wexora-navy pb-1 inline-block">
+          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-wexora-navy border-b-4 border-yellow-400 pb-1 inline-block">
             How We Work
           </p>
 
-          <h2 className="text-3xl font-semibold tracking-tight text-slate-900 md:text-4xl">
+          <h2 className="text-3xl font-semibold leading-tight text-slate-900 sm:text-4xl md:text-4xl">
             The Growth Roadmap
           </h2>
 

@@ -23,9 +23,7 @@ const DistributorCTA = () => {
             </h2>
 
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-blue-100">
-              Work with Wexora to identify new market opportunities,
-              reach underserved customers and expand your distribution
-              opportunities across Kano and Northern Nigeria.
+             Partner with Wexora to identify new market opportunities, connect with new customers and expand your distribution reach across Nigeria and beyond.
             </p>
 
             <div className="mt-10">
