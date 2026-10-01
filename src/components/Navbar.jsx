@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
-import Logo from "../assets/Wexora_logo.png";
+import Logo from "../assets/Wexora_logo1.png";
 
 const Navbar = () => {
 
@@ -23,21 +23,21 @@ const Navbar = () => {
       <div className="mx-auto max-w-7xl px-2 py-4 md:px-6 lg:px-8">
 
         {/* Top Navbar */}
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between ">
 
           {/* Logo */}
           <Link
             to="/"
-            className="flex items-center gap-1"
+            className="flex items-end gap-4"
             onClick={() => setIsMenuOpen(false)}
           >
             <img
               src={Logo}
               alt="Wexora Logo"
-              className="h-10 w-24"
+              className="h-12 w-12"
             />
 
-            <span className="hidden text-[24px] font-bold text-wexora-navy md:block">
+            <span className="hidden text-[24px] font-bold text-wexora-primary md:block">
               Wexora
             </span>
           </Link>
@@ -75,7 +75,7 @@ const Navbar = () => {
 
             {/* CTA */}
             <Link
-              to="/partner"
+              to="/contact"
               className="rounded-lg bg-wexora-orange px-5 py-3 text-sm font-semibold text-black transition hover:bg-[#0B5CAD]"
             >
               Become a Distributor Partner

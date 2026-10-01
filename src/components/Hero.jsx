@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Hero = () => {
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-[#071A33] via-[#08264A] to-[#0B3D78]">
@@ -38,20 +40,19 @@ const Hero = () => {
 
           {/* Buttons */}
           <div className="mt-9 flex flex-col gap-4 sm:flex-row">
-
-            <a
-              href="/partner"
+            <Link
+              to="/contact"
               className="inline-flex items-center justify-center rounded-lg bg-wexora-orange px-6 py-3.5 text-sm font-semibold text-black transition hover:bg-wexora-blue"
             >
               Become a Distributor Partner
               <span className="ml-2 text-lg">→</span>
-            </a>
+            </Link>
 
             <a
-              href="#how-it-works"
+              href="#what-we-do"
               className="inline-flex items-center justify-center rounded-lg border border-white/20 px-6 py-3.5 text-sm font-semibold text-white transition hover:border-white/40 hover:bg-white/5"
             >
-              How It Works
+              What We Do
             </a>
 
           </div>

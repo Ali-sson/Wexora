@@ -17,9 +17,7 @@ const Footer = () => {
             </Link>
 
             <p className="mt-5 max-w-md text-sm leading-7 text-slate-300">
-              Connecting manufacturers with distributors through
-              market insight, demand generation and new market
-              opportunities across Kano and Northern Nigeria.
+              Connecting manufacturers with distributors through market insight, demand generation, and new market opportunities across Kano, Nigeria, and beyond
             </p>
           </div>
 

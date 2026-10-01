@@ -23,12 +23,12 @@ const DistributorCTA = () => {
             </h2>
 
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-blue-100">
-             Partner with Wexora to identify new market opportunities, connect with new customers and expand your distribution reach across Nigeria and beyond.
+             Partner with Wexora to identify new market opportunities, understand emerging demand, and expand your distribution reach across Nigeria and beyond.
             </p>
 
             <div className="mt-10">
               <Link
-                to="/become-a-distributor"
+                to="/contact"
                 className="inline-flex items-center gap-3 rounded-lg bg-white px-7 py-4 text-sm font-semibold text-[#124B87] transition-all duration-300 hover:bg-blue-50"
               >
                 Become a Distributor Partner

@@ -36,11 +36,13 @@ const Hero = () => {
           </span>
 
           <h1 className="text-3xl font-bold leading-[1.05] tracking-tight text-white md:text-5xl">
-              Connecting Supply With          
-            <span className="mt-2 block text-white">
-               Market Opportunity
-            </span>
+              Connecting Supply With Market Opportunity        
           </h1>
+
+           <p className="mx-auto mt-6 max-w-3xl text-base leading-7 text-white">
+            Building connections between supply, market demand, and new business opportunities
+          </p>
+        
         
 
         </div>
