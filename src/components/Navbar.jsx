@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     <nav className="sticky top-0 z-50 border-b border-slate-200 bg-white">
-      <div className="mx-auto max-w-7xl px-4 py-4 md:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-6 py-4 md:px-6 lg:px-8">
 
         {/* Top Navbar */}
         <div className="flex items-center justify-between ">
