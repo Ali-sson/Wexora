@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     <nav className="sticky top-0 z-50 border-b border-slate-200 bg-white">
-      <div className="mx-auto max-w-7xl px-2 py-4 md:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 py-4 md:px-6 lg:px-8">
 
         {/* Top Navbar */}
         <div className="flex items-center justify-between ">
@@ -174,7 +174,7 @@ const Navbar = () => {
 
               {/* Mobile CTA */}
               <Link
-                to="/partner"
+                to="/contact"
                 onClick={() => setIsMenuOpen(false)}
                 className="mt-2 rounded-lg bg-wexora-orange px-5 py-3 text-center text-sm font-semibold text-black transition hover:bg-[#0B5CAD]"
               >
