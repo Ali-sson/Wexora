@@ -41,13 +41,13 @@ const About = () => {
 
         {/* Button */}
         <div className="mt-8">
-          <link
+          <Link
             to="/about"
             className="inline-flex items-center gap-2 rounded-lg bg-wexora-primary px-6 py-3 text-sm font-semibold text-white transition hover:bg-wexora-blue"
           >
             Learn More About Wexora
             <span>→</span>
-          </link>
+          </Link>
         </div>
 
       </div>
