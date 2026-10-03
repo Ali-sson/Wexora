@@ -5,22 +5,22 @@ const WhoWeWorkWith = () => {
 
         {/* Section Header */}
         <div className="mx-auto max-w-2xl text-center">
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em]  text-wexora-navy border-b-4 border-yellow-400  pb-1 inline-block">
+          <p data-aos="fade-in" className="mb-4 text-sm font-semibold uppercase tracking-[0.2em]  text-wexora-navy border-b-4 border-yellow-400  pb-1 inline-block">
             Who We Work With
           </p>
 
-          <h2 className="text-3xl font-semibold tracking-tight text-slate-900 md:text-4xl">
+          <h2 data-aos="fade-up" className="text-3xl font-semibold tracking-tight text-slate-900 md:text-4xl">
             Connecting Supply With Distribution
           </h2>
 
-          <p className="mt-6 text-base leading-8 text-slate-600">
+          <p data-aos="fade-up" data-aos-delay="200" className="mt-6 text-base leading-8 text-slate-600">
             Wexora connects manufacturers with distributors by understanding
             market needs and creating stronger supply opportunities.
           </p>
         </div>
 
         {/* Connection Diagram */}
-        <div className="mx-auto mt-16 max-w-5xl">
+        <div data-aos="fade-in" data-aos-delay="300" className="mx-auto mt-16 max-w-5xl">
 
           <div className="grid items-center gap-6 md:grid-cols-[1fr_auto_1fr_auto_1fr]">
 

@@ -38,15 +38,15 @@ const Services = () => {
 
         {/* Header */}
         <div  className="max-w-3xl text-center mx-auto">
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-wexora-navy border-b-4 border-yellow-400 pb-1 inline-block">
+          <p data-aos="fade-in" className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-wexora-navy border-b-4 border-yellow-400 pb-1 inline-block">
             What We Do
           </p>
 
-           <h2 className="text-3xl font-semibold leading-tight text-slate-900 md:text-4xl">
+           <h2 data-aos="fade-up" className="text-3xl font-semibold leading-tight text-slate-900 md:text-4xl">
           Creating Demand. Connecting Markets. Supporting Growth.
         </h2>
 
-          <p className="mt-6 text-base leading-8 text-slate-600">
+          <p data-aos="fade-up" data-aos-delay="300" className="mt-6 text-base leading-8 text-slate-600">
             Wexora works alongside established distributors to reach
             customers they may not yet be fully serving. We generate
             qualified demand, develop buyer relationships and channel
@@ -56,7 +56,7 @@ const Services = () => {
         </div>
 
         {/* Services */}
-        <div className="mt-16 grid gap-px overflow-hidden rounded-2xl border border-slate-200 bg-slate-200 md:grid-cols-2">
+        <div data-aos="fade-in" className="mt-16 grid gap-px overflow-hidden rounded-2xl border border-slate-200 bg-slate-200 md:grid-cols-2">
 
           {services.map((service, index) => (
             <div

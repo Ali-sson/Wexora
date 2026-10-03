@@ -15,7 +15,7 @@ const VisionMission = ({
 
         {/* Section Header */}
         <div className="mx-auto max-w-3xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-wexora-navy border-b-4 border-yellow-400 inline-block pb-1">
+          <p data-aos="fade-in" className="text-sm font-semibold uppercase tracking-[0.2em] text-wexora-navy border-b-4 border-yellow-400 inline-block pb-1">
             {eyebrow}
           </p>
 
@@ -28,7 +28,7 @@ const VisionMission = ({
         <div className="mt-14 grid gap-6 lg:grid-cols-2">
 
           {/* Vision Card */}
-          <div className="rounded-3xl bg-wexora-navy p-8 shadow-sm lg:p-10">
+          <div data-aos="fade-up" data-aos-delay="200" className="rounded-3xl bg-wexora-navy p-8 shadow-sm lg:p-10">
 
             <div className="flex items-center justify-between">
               <span className="text-sm font-bold text-white">
@@ -51,7 +51,7 @@ const VisionMission = ({
           </div>
 
           {/* Mission Card */}
-          <div className="rounded-3xl bg-wexora-navy p-8 shadow-sm lg:p-10">
+          <div data-aos="fade-up" data-aos-delay="200" className="rounded-3xl bg-wexora-navy p-8 shadow-sm lg:p-10">
 
             <div className="flex items-center justify-between">
               <span className="text-sm font-bold text-white">

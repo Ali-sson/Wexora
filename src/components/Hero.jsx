@@ -23,23 +23,23 @@ const Hero = () => {
         {/* Left Content */}
         <div className="max-w-2xl">
 
-          <span className="mb-6 inline-flex rounded-full border border-blue-300/20 bg-wexora-primary px-4 py-2 text-sm font-medium tracking-wide text-white">
+          <span data-aos="fade-in" className="mb-6 inline-flex rounded-full border border-blue-300/20 bg-wexora-primary px-4 py-2 text-sm font-medium tracking-wide text-white">
             MARKET DEVELOPMENT PARTNER
           </span>
 
-          <h1 className="text-5xl font-bold leading-[1.05] tracking-tight text-white sm:text-6xl lg:text-7xl">
+          <h1 data-aos="fade-up" className="text-5xl font-bold leading-[1.05] tracking-tight text-white sm:text-6xl lg:text-7xl">
             Connecting Commerce
             <span className="mt-2 block text-wexora-primary">
               To opportunity.
             </span>
           </h1>
 
-          <p className="mt-7 max-w-xl text-lg leading-8 text-slate-300">
+          <p data-aos="fade-up" data-aos-delay="200" className="mt-7 max-w-xl text-lg leading-8 text-slate-300">
           Wexora bridges manufacturers and distributors by understanding market needs, sourcing reliable products, and creating stronger supply opportunities across Nigeria and beyond.
           </p>
 
           {/* Buttons */}
-          <div className="mt-9 flex flex-col gap-4 sm:flex-row">
+          <div data-aos="fade-in" data-aos-delay="400" className="mt-9 flex flex-col gap-4 sm:flex-row">
             <Link
               to="/contact"
               className="inline-flex items-center justify-center rounded-lg bg-wexora-orange px-6 py-3.5 text-sm font-semibold text-black transition hover:bg-wexora-blue"
@@ -58,7 +58,7 @@ const Hero = () => {
           </div>
 
           {/* Trust statement */}
-          <div className="mt-12 flex items-center gap-3 text-sm text-slate-400">
+          <div data-aos="fade-in" data-aos-delay="200" className="mt-12 flex items-center gap-3 text-sm text-slate-400">
             <span className="h-2 w-2 rounded-full bg-blue-300"></span>
             Partnering with distributors to unlock new market opportunities
           </div>

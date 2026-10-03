@@ -41,17 +41,17 @@ const CoreValues = ({
 
         {/* Section Header */}
         <div className="mx-auto max-w-3xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-wexora-navy border-b-4 inline-block border-yellow-400 pb-1">
+          <p data-aos="fade-in" className="text-sm font-semibold uppercase tracking-[0.2em] text-wexora-navy border-b-4 inline-block border-yellow-400 pb-1">
             {eyebrow}
           </p>
 
-          <h2 className="mt-4 text-3xl font-bold text-wexora-navy sm:text-3xl md:text-4xl">
+          <h2 data-aos="fade-up" data-aos-delay="200" className="mt-4 text-3xl font-bold text-wexora-navy sm:text-3xl md:text-4xl">
             {title}
           </h2>
         </div>
 
         {/* Values */}
-        <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <div data-aos="fade-in" className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
 
           {values.map((value) => (
             <div

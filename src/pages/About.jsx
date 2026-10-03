@@ -31,15 +31,15 @@ const Hero = () => {
         {/* Left Content */}
         <div className="max-w-3xl">
 
-          <span className="mb-6 inline-flex rounded-full border border-blue-300/20 bg-wexora-primary px-4 py-2 text-sm font-medium tracking-wide text-white">
+          <span data-aos="fade-in"  className="mb-6 inline-flex rounded-full border border-blue-300/20 bg-wexora-primary px-4 py-2 text-sm font-medium tracking-wide text-white">
             About Us
           </span>
 
-          <h1 className="text-3xl font-bold leading-[1.05] tracking-tight text-white md:text-5xl">
+          <h1 data-aos="fade-in" className="text-3xl font-bold leading-[1.05] tracking-tight text-white md:text-5xl">
               Connecting Supply With Market Opportunity        
           </h1>
 
-           <p className="mx-auto mt-6 max-w-3xl text-base leading-7 text-white">
+           <p data-aos="fade-in" data-aos-delay="200" className="mx-auto mt-6 max-w-3xl text-base leading-7 text-white">
             Building connections between supply, market demand, and new business opportunities
           </p>
         

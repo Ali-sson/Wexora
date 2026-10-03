@@ -11,17 +11,17 @@ const WhyWexora = ({
         <div className="mx-auto max-w-4xl text-center">
 
           {/* Eyebrow */}
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-wexora-navy border-b-4 border-yellow-400 inline-block pb-1">
+          <p data-aos="fade-in" className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-wexora-navy border-b-4 border-yellow-400 inline-block pb-1">
             {eyebrow}
           </p>
 
           {/* Heading */}
-          <h2 className="text-3xl font-bold leading-tight text-wexora-navy md:text-4xl ">
+          <h2 data-aos="fade-up"  className="text-3xl font-bold leading-tight text-wexora-navy md:text-4xl ">
             {title}
           </h2>
 
           {/* Description */}
-          <div className="mt-8 space-y-5 text-base leading-8 text-wexora-gray">
+          <div data-aos="fade-up" data-aos-delay="200" className="mt-8 space-y-5 text-base leading-8 text-wexora-gray">
             <p>{description}</p>
 
             <p>{secondParagraph}</p>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const DistributorCTA = () => {
   return (
     <section className="px-6 py-24 lg:px-8 lg:py-32">
-      <div className="mx-auto max-w-7xl">
+      <div data-aos="fade-in" className="mx-auto max-w-7xl">
         <div className="relative overflow-hidden rounded-3xl bg-wexora-navy px-6 py-20 text-center sm:px-12 lg:px-20">
 
           {/* Decorative Circle */}

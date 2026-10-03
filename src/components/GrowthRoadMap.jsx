@@ -26,15 +26,15 @@ const GrowthRoadmap = () => {
 
         {/* Section Header */}
         <div className="mx-auto max-w-2xl text-center">
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-wexora-navy border-b-4 border-yellow-400 pb-1 inline-block">
+          <p data-aos="fade-in" className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-wexora-navy border-b-4 border-yellow-400 pb-1 inline-block">
             How We Work
           </p>
 
-          <h2 className="text-3xl font-semibold leading-tight text-slate-900 sm:text-4xl md:text-4xl">
+          <h2 data-aos="fade-up"  className="text-3xl font-semibold leading-tight text-slate-900 sm:text-4xl md:text-4xl">
             The Growth Roadmap
           </h2>
 
-          <p className="mt-6 text-base leading-8 text-slate-600">
+          <p data-aos="fade-up" data-aos-delay="200" className="mt-6 text-base leading-8 text-slate-600">
            Wexora's model evolves from market development,
            to a connected B2B commerce network, and ultimately
            to a market intelligence platform.
@@ -42,7 +42,7 @@ const GrowthRoadmap = () => {
         </div>
 
         {/* Roadmap */}
-        <div className="relative mt-20">
+        <div data-aos="fade-in" data-aos-delay="200" className="relative mt-20">
 
           {/* Connecting Line - Desktop */}
           <div className="absolute left-0 right-0 top-6 hidden h-px bg-slate-300 lg:block" />

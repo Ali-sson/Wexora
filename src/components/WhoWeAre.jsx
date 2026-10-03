@@ -8,24 +8,24 @@ const WhoWeAre = () => {
 
           {/* Left */}
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-wexora-navy border-b-4 border-yellow-300 pb-1 inline-block ">
+            <p data-aos="fade-in" className="text-sm font-semibold uppercase tracking-[0.2em] text-wexora-navy border-b-4 border-yellow-300 pb-1 inline-block ">
               Who We Are
             </p>
 
-            <h2 className="mt-3 max-w-md text-3xl font-semibold leading-tight tracking-tight text-wexora-navy md:text-4xl">
+            <h2 data-aos="fade-up" className="mt-3 max-w-md text-3xl font-semibold leading-tight tracking-tight text-wexora-navy md:text-4xl">
               Building the connections that move markets forward.
             </h2>
           </div>
 
           {/* Right */}
           <div className="max-w-3xl">
-            <p className="text-base leading-2 text-wexora-gray">
+            <p data-aos="fade-up" data-aos-delay="200" className="text-base leading-2 text-wexora-gray">
               Wexora Global Ltd is a market-development company focused on
               connecting manufacturers and distributors with new market
               opportunities.
             </p>
 
-            <p className="mt-4 text-base leading-2 text-wexora-gray">
+            <p data-aos="fade-up" data-aos-delay="200" className="mt-4 text-base leading-2 text-wexora-gray">
               We work by understanding market needs, identifying demand and
               creating stronger connections between product supply and
               distribution. Our role is to help businesses discover
@@ -33,7 +33,7 @@ const WhoWeAre = () => {
               difficult to reach.
             </p>
 
-            <p className="mt-4 text-base leading-2 text-wexora-gray">
+            <p data-aos="fade-up" data-aos-delay="200" className="mt-4 text-base leading-2 text-wexora-gray">
               Founded in Kano, Wexora is building a scalable model designed
               to create market connections across Nigeria and, over time,
               beyond the Nigerian market.
@@ -42,7 +42,7 @@ const WhoWeAre = () => {
         </div>
 
         {/* Principles */}
-        <div className="mt-20 grid border-t border-slate-200 md:grid-cols-3">
+        <div data-aos="fade-in" data-aos-delay="200" className="mt-20 grid border-t border-slate-200 md:grid-cols-3">
 
           {/* Item 1 */}
           <div className="border-b border-slate-200 py-8 md:border-b-0 md:border-r md:pr-10">
